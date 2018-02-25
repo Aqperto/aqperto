@@ -37,8 +37,7 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>2.3</version>
                 <configuration>
-                	<webXml>webapp\WEB-INF\web.xml</webXml>
-                    <!-- <failOnMissingWebXml>false</failOnMissingWebXml> -->
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
                     <outputDirectory>target</outputDirectory>
               		<warName>ROOT</warName>
                 </configuration>
